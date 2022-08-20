@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    color: whitesmoke;
+}
+
+body {
+    font-size: 2rem;
+    color: ghostwhite;
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: system-ui;
+    background-image: linear-gradient(rgb(54, 2, 207), rgb(59, 8, 121));
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.ctas {
+    display: flex;
+    flex-direction: column;
+}
+
+.primary-btn,
+.secondary-btn {
+    font-size: 1.5rem;
+}
+
+.primary-btn {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.secondary-btn {
+    outline: 2px solid white;
+    color: white
+}
+
+a {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: .125em;
+    transition: background-color 150ms ease-in-out;
+    margin-block: .5rem;
+    margin-inline: .5rem;
+}
+
+a:hover {
+    background-color: lightblue;
+
+}
+
+.secondary-btn:hover {
+    background-color: darkslateblue;
+}
+
+iframe {
+    aspect-ratio: 16/9;
+    width: clamp(320px, 80%, 640px);
+}
+
+footer {
+    font-size: 1rem;
+}
